@@ -97,26 +97,14 @@ namespace ders11
             */
 
             Console.WriteLine("Lütfen bir sayı giriniz: ");
-            int sayi1 = Console.ReadLine();
-            int sayi2 = Console.ReadLine();
+            int sayi1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Lütfen bir sayı giriniz: ");
+            int sayi2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"Toplam: {sayi1 + sayi2}");
             Console.WriteLine($"Fark: {sayi1 - sayi2}");
             Console.WriteLine($"Çarpım: {sayi1 * sayi2}");
             Console.WriteLine($"Bolum: {sayi1 / sayi2}");   
-            Console.WriteLine($"Mod: {sayi1 % sayi2}"); 
-
-
-
-
-
-
-
-
-
-
-
-
-
+            Console.WriteLine($"Mod: {sayi1 % sayi2}");
 
         }
     }
