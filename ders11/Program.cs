@@ -43,6 +43,7 @@ namespace ders11
             Console.WriteLine(bilgi);
             */
 
+            /*
             Console.Write("Adınızı giriniz: ");
             string ad = Console.ReadLine();
             Console.Write("Bölümünüzü giriniz: ");
@@ -52,6 +53,70 @@ namespace ders11
             Console.Write("Not ortalamanızı giriniz: ");
             double not_ort = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine($"Adınız: {ad}, Bölümünüz: {bolum}, Yaşınız: {yas}, Not ortalamanız: {not_ort}");
+            */
+
+
+            /*
+            int sayi1 = 15;
+            int sayi2 = 4;
+            Console.WriteLine(${sayi1} + {sayi2} = {sayi1 + sayi2});
+            Console.WriteLine(${sayi1} - { sayi2} = { sayi1 - sayi2});
+            Console.WriteLine(${sayi1} * { sayi2} = { sayi1 * sayi2});
+            Console.WriteLine(${sayi1} / { sayi2} = { sayi1 / sayi2});  
+            double ondalik_sonuc = (double)sayi1 / sayi2; // tam sayı bölme işlemi sonucunu ondalık yapmak için tür dönüşümü
+            Console.WriteLine($"{sayi1} / {sayi2} = {ondalik_sonuc}");
+            Console.WriteLine($"{sayi1} % {sayi2} = {sayi1 % sayi2}"); // mod alma işlemi
+             */
+
+            /*
+            int sayac = 10;
+            Console.WriteLine($"Sayacın ilk değeri: + {sayac}");
+            Console.WriteLine($"++sayac: {++sayac}");
+            Console.WriteLine($"sayac++: {sayac++}");
+            Console.WriteLine($"Sayacın son değeri: {sayac}");
+
+            int toplam = 100;
+            toplam += 50;
+            Console.WriteLine($"(toplam += 50) {toplam}");
+            toplam -= 70;
+            Console.WriteLine($"(toplam -= 70) {toplam}");
+            */
+
+            /*
+            Console.Writeline($"10 > 15 : {10 > 15}"); // false)
+            Console.WriteLine($"5 < 10 : {5 < 10}"); // true
+            Console.WriteLine($"10 == 10 : {10 == 10}");
+            Console.WriteLine($"10 != 5 : {10 != 5}");
+            */
+
+            /*
+            Console.WriteLine($"Karekök 16: {Math.Sqrt(16)}");
+            Console.WriteLine($"2 üzeri 5: {Math.Pow(2, 5)}");  
+            Console.WriteLine($"Pi sayısı: {Math.PI}");
+            Console.WriteLine($"Mutlak Değer: {Math.Abs(-25)}");
+            */
+
+            Console.WriteLine("Lütfen bir sayı giriniz: ");
+            int sayi1 = Console.ReadLine();
+            int sayi2 = Console.ReadLine();
+            Console.WriteLine($"Toplam: {sayi1 + sayi2}");
+            Console.WriteLine($"Fark: {sayi1 - sayi2}");
+            Console.WriteLine($"Çarpım: {sayi1 * sayi2}");
+            Console.WriteLine($"Bolum: {sayi1 / sayi2}");   
+            Console.WriteLine($"Mod: {sayi1 % sayi2}"); 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         }
     }
