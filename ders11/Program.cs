@@ -27,6 +27,7 @@ namespace ders11
             Console.WriteLine("Evli mi: " + evli_mi);
             */
 
+            /*
             Console.Write("Adınıdızı giriniz: ");
             string isim = Console.ReadLine();
             Console.WriteLine("Merhaba " + isim + " hoş geldin!");
@@ -40,11 +41,17 @@ namespace ders11
             var bilgi = $"Yaşınız {yas} ve {boy} boyundasınız.";
             //console.WriteLine("Yaşınız " + yas + boy + " boyundasınız."); 
             Console.WriteLine(bilgi);
+            */
 
-
-
-
-
+            Console.Write("Adınızı giriniz: ");
+            string ad = Console.ReadLine();
+            Console.Write("Bölümünüzü giriniz: ");
+            string bolum = Console.ReadLine();  
+            Console.Write("Yaşınızı giriniz: ");  
+            int yas = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Not ortalamanızı giriniz: ");
+            double not_ort = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine($"Adınız: {ad}, Bölümünüz: {bolum}, Yaşınız: {yas}, Not ortalamanız: {not_ort}");
 
         }
     }
